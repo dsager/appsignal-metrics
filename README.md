@@ -3,12 +3,14 @@ collection of potentially interesting [appsignal](/appsignal/appsignal) [custom 
 
 ## Structure
 
-Each example represents a metric that can usually be measured in web applications.
-For every metric there's a file within the `examples/` folder containing:
+An example represents a typical metric from a web application.
+For each example there's a file within the `examples/` folder containing:
 
 - brief description of the metric
-- code snippet of the measurement (ruby)
-- code snippet with the visualization (dashboard-yml format)
+- code snippet of the recording within your application (ruby)
+- code snippet of the visualization via dashboard graph (yml)
+
+See [`session_creation_count`](examples/session_creation_count.md) for an example.
 
 ## Contribute
 
